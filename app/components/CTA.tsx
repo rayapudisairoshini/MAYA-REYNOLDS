@@ -34,7 +34,7 @@ export default function CTA() {
             </div>
 
             <div>
-              <p>drmayarey@example.com</p>
+              <p>drmayareynolds@counselling.com</p>
               <p>(555) 555-5555</p>
             </div>
 

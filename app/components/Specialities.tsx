@@ -1,5 +1,5 @@
 export default function Specialities() {
-  const specialities = [
+  const Specialties = [
     {
       name: "Anxiety & Panic",
       image: "/images/anxiety-panic.jpg",
@@ -31,7 +31,7 @@ export default function Specialities() {
       <div className="mx-auto max-w-6xl">
         <div className="max-w-2xl">
           <p className="text-sm font-medium uppercase tracking-[3px] text-[#647b6b]">
-            Specialities
+            Specialties
           </p>
           <h2 className="mt-4 font-serif text-5xl font-light leading-tight text-[#26332b] md:text-6xl">
             Support for what you're carrying.
@@ -42,22 +42,22 @@ export default function Specialities() {
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          {specialities.map((speciality) => (
-            <article key={speciality.name} className="group flex h-full flex-col overflow-hidden bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          {Specialties.map((specialty) => (
+            <article key={specialty.name} className="group flex h-full flex-col overflow-hidden bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
               <div className="overflow-hidden">
-                <img src={speciality.image} alt={`${speciality.name} therapy`} className="h-64 w-full object-cover transition duration-500 group-hover:scale-105"/>
+                <img src={specialty.image} alt={`${specialty.name} therapy`} className="h-64 w-full object-cover transition duration-500 group-hover:scale-105"/>
               </div>
               <div className="flex flex-1 flex-col p-7">
 
                 <h3 className="font-serif text-3xl font-light leading-tight text-[#26332b]">
-                  {speciality.name}
+                  {specialty.name}
                 </h3>
 
                 <p className="mt-5 text-base leading-8 text-[#26332b]/65">
-                  {speciality.description}
+                  {specialty.description}
                 </p>
                 <a href="#cta" className="mt-auto pt-8 text-sm font-semibold text-[#647b6b] transition-colors hover:text-[#26332b]">
-                  Learn more →
+                  Start a conversation →
                 </a>
               </div>
             </article>

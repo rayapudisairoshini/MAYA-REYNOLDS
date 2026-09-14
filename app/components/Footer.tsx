@@ -18,9 +18,6 @@ export default function Footer() {
               A warm, grounded space for adults navigating anxiety, trauma, burnout, and the pressure of doing it all.
             </p>
 
-            <p className="mt-6 text-xs uppercase tracking-[2px] text-[#8B735F]">
-              Fictional practice created for a design assignment
-            </p>
           </div>
           <div>
             <p className="text-sm font-medium uppercase tracking-[2px] text-[#8B735F]">
@@ -36,7 +33,7 @@ export default function Footer() {
 
               <li>
                 <a href="#specialities" className="text-[#3B332C]/65 transition hover:text-[#3B332C]">
-                  Specialities
+                  Specialties
                 </a>
               </li>
 
@@ -79,8 +76,8 @@ export default function Footer() {
               </div>
 
               <div>
-                <a href="mailto:hello@mayareynoldstherapy.com" className="transition hover:text-[#3B332C]">
-                  hello@mayareynoldstherapy.com
+                <a href="mailto:drmayareynolds@counselling.com" className="transition hover:text-[#3B332C]">
+                  drmayareynolds@counselling.com
                 </a>
 
                 <p className="mt-1">(555) 555-5555</p>
