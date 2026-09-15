@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. Maya Reynolds — Therapy Website
 
-## Getting Started
+A responsive therapy website designed for Dr. Maya Reynolds, a fictional licensed clinical psychologist based in Santa Monica, California.
 
-First, run the development server:
+The website focuses on creating a calm, welcoming experience for adults looking for support with anxiety, trauma, burnout, chronic stress, and perfectionism.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Website
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://maya-reynolds-kohl.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was created as part of a Front End Developer Internship assignment.
 
-## Learn More
+The website was designed using the provided Dr. Maya Reynolds profile as the main source for the content, including her location, areas of focus, therapeutic approaches, client groups, and practice details.
 
-To learn more about Next.js, take a look at the following resources:
+The original website structure was used as a reference, while the visual style, content, imagery, and overall presentation were redesigned specifically for Dr. Maya Reynolds.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Responsive design for desktop and mobile
+- Calm and professional therapy-focused visual design
+- Hero section with clear call-to-action
+- About Dr. Maya Reynolds section
+- Who I Help section
+- Specialties section
+- Therapy methods section
+- Our Office section
+- Frequently Asked Questions
+- Consultation request form
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
