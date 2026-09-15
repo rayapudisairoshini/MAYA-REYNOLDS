@@ -1,5 +1,11 @@
 import Schedule from "@/app/components/Schedule";
+import Header from "@/app/components/Header";
 
 export default function SchedulePage() {
-  return <Schedule />;
+   return (
+    <>
+      <Header />
+      <Schedule />
+    </>
+  );
 }
